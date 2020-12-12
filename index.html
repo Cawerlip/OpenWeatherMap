@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sources/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Weather forecast</h1>
+        </div>
+    </header>
+
+    <main>
+        <h2>Type in your city:</h2>
+        <form action="">
+            <input type="text" id="city" placeholder="Enter the city">
+            <button type="submit" id="button">Submit</button>
+        </form>
+    </main>
+
+    <div class="container">
+        <div class="current_weather">
+            <p>Current weather for next 5 days:</p>
+        </div>
+        <div class="weather-wrapper"></div>
+    </div>
+    <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+    <script src="helpers.js"></script>
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+</body>
+</html>

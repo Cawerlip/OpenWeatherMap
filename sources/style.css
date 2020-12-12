@@ -1,0 +1,93 @@
+html {
+    width: auto;
+}
+
+body {
+    background-image: url('C:/Users/Софья/Desktop/weatherForecast/sources/images/yousef-espanioly-kRGEvMBMoCY-unsplash.jpg');
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+/* Header */
+.header h1 {
+    font-family: "Open Sans Condensed";
+    font-size: 60px;
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+/* Search block */
+
+form {
+    display: flex;
+    justify-content: center;
+
+}
+
+main h2,
+.current_weather {
+    font-family: "Open Sans Condensed";
+    font-size: 40px;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#city {
+    width: 400px;
+    height: 35px;
+    opacity: 0.4;
+    padding: 0px;
+    border: 0px;
+    font-size: 30px;
+    color: plum;
+}
+
+#button {
+    height: 35px;
+    width: 65px;
+    padding: 0px;
+    opacity: 0.5;
+    font-family: "Open Sans Condensed";
+    border: 0px;
+    padding: 0px;
+    margin-left: 5px;
+    background-color: #C57C73;
+    font-size: 20px;
+    color: white;
+}
+
+/* Current weather */
+
+.weather-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: white;
+    opacity: 0.4;
+    padding: 0px;
+    
+    font-size: 15px;
+    font-family: "Open Sans Condensed";
+    margin: 0px;
+    }
+
+.date,
+.pressure,
+.temp {
+    margin: 0;
+    
+}
+
+
+
+
+
